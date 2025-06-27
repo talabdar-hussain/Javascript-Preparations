@@ -8,7 +8,7 @@ const myObj={
     age:18,
     religion:"islam",
     isLongedin:"false",
-    "hobb?ies":["book reading", "playing games", "sports"],
+    "hobbies":["book reading", "playing games", "sports"],
     "today":"monday"
 }
 
