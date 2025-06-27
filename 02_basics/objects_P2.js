@@ -117,3 +117,5 @@ const destructurinObj={
 const {instructor:me,CourseName:course}=destructurinObj
 
 console.log(`the instructor is ${me} and the course is ${course}`);
+
+console.log("hello");
