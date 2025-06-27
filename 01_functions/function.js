@@ -33,17 +33,44 @@ function myFunction(num1,num2){
 
     // console.log(num1+num2);
 
-     const result=num1+num2
-    return result    
+    //  const result=num1+num2
+    return num1+num2
     
 }
 
 
 
-const result=myFunction(2,5)
-console.log(result);
 
-console.log(typeof result);
+// console.log(myFunction(2,4));
+
+// console.log(typeof myFunction());
+
+
+function justLoggedIn(username){
+
+    return `${username} logged in `
+}
+
+// console.log(justLoggedIn("talabdar"));  aghar hum argument pass nae krengy tou undefined ae ga 
+// console.log(typeof justLoggedIn());
+
+function userName(username){
+    if(!username){
+        console.log("please give username");
+        return
+    }
+
+    return  `${username} is logged in`
+
+
+}
+
+console.log(userName("talabdar"));
+
+
+
+
+
 
 
 
