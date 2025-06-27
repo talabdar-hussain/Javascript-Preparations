@@ -35,12 +35,12 @@ const obj3= {obj1,obj2} //same array wala issue ae ga , object k andar object
 
 
 
-// const obj4=  Object.assign({},obj1,obj2)
+const obj4=  Object.assign({},obj1,obj2)
 
 
-const obj4={...obj1,...obj2} // using spreed 
+// const obj4={...obj1,...obj2}  using spreed 
 
-// console.log(obj4);
+console.log("using assign",  obj4);
 
 
 //backend say data array of objects ma ata hai
@@ -116,6 +116,6 @@ const destructurinObj={
 
 const {instructor:me,CourseName:course}=destructurinObj
 
-console.log(`the instructor is ${me} and the course is ${course}`);
+// console.log(`the instructor is ${me} and the course is ${course}`);
 
-console.log("hello");
+// console.log("hello");
