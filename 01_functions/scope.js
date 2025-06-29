@@ -66,3 +66,23 @@ console.log("value 1: ",value1);
 
 
 scopeCheck()
+
+
+
+//lets talk about function declaration
+
+// addOne() this can be acces before funtion 
+
+function addOne(){
+    console.log("this is addOne function");
+    
+}
+
+
+
+
+// addTwo(3)  ReferenceError: Cannot access 'addTwo' before initialization 
+const addTwo= function addTwo(num){
+    console.log("this is addTwo function");
+    
+}
