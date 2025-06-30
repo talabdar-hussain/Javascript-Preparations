@@ -1,10 +1,10 @@
 
-(function myfunc(){
+(function myfunc(){ //named iife
     // console.log(`hello talabdar`);
     
 })();
 
-// (()=>{
+// (()=>{ unnamed iife
 //     console.log(`hello talabdar`);
     
 // })()
