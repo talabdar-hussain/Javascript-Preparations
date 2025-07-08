@@ -62,3 +62,34 @@ if (value) {
     
     
 // }
+
+
+
+// const logWithEmail=true
+// const logWithGoogle=false
+
+// if (logWithEmail || logWithGoogle) {
+
+//     console.log("user successfully logIn");
+    
+    
+// } else {
+
+//     console.log("please logIn with Email or Google account");
+    
+    
+// }
+const logWithEmail=false
+const logWithGoogle=false
+
+if (logWithEmail || logWithGoogle) {
+
+    console.log("user successfully logIn");
+    
+    
+} else {
+
+    console.log("please logIn with Email or Google account");
+    
+    
+}
